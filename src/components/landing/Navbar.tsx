@@ -64,6 +64,12 @@ const Navbar = ({ onOpenOrcamento }: NavbarProps) => {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex space-x-10 items-center">
             <button
+              onClick={() => scrollToSection("sobre")}
+              className="text-muted-foreground hover:text-primary font-semibold transition"
+            >
+              Sobre nós
+            </button>
+            <button
               onClick={() => scrollToSection("servicos")}
               className="text-muted-foreground hover:text-primary font-semibold transition"
             >
@@ -117,6 +123,12 @@ const Navbar = ({ onOpenOrcamento }: NavbarProps) => {
             className="lg:hidden bg-card border-t border-border"
           >
             <div className="px-6 py-4 space-y-4">
+              <button
+                onClick={() => scrollToSection("sobre")}
+                className="block w-full text-left text-muted-foreground hover:text-primary font-semibold transition py-2"
+              >
+                Sobre nós
+              </button>
               <button
                 onClick={() => scrollToSection("servicos")}
                 className="block w-full text-left text-muted-foreground hover:text-primary font-semibold transition py-2"

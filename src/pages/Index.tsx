@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Navbar from "@/components/landing/Navbar";
 import HeroSection from "@/components/landing/HeroSection";
-// 1. IMPORTAR O NOVO COMPONENTE AQUI:
+import { AboutSection } from "@/components/landing/AboutSection";
 import { StickyServices } from "@/components/landing/StickyServices";
+import { ServicesGrid } from "@/components/landing/ServicesGrid";
 import ProfessionalsSection from "@/components/landing/ProfessionalsSection";
 import CTASection from "@/components/landing/CTASection";
 import Footer from "@/components/landing/Footer";
@@ -19,8 +20,14 @@ const Index = () => {
       {/* Secção Principal */}
       <HeroSection />
 
-      {/* 2. ADICIONAR O COMPONENTE AQUI (LOGO ABAIXO DO HERO): */}
+      {/* Sobre nós */}
+      <AboutSection />
+
+      {/* Serviços em Destaque */}
       <StickyServices />
+
+      {/* Lista Completa de Serviços */}
+      <ServicesGrid />
 
       {/* Resto do site */}
       <ProfessionalsSection />
