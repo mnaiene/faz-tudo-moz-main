@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-muted-foreground text-lg mb-8 max-w-md leading-relaxed">
-              A plataforma mais confiável de Moçambique para serviços
+              A plataforma mais confiável de África para serviços
               domésticos. Qualidade garantida em cada visita.
             </p>
 
@@ -202,11 +202,11 @@ const Footer = () => {
             © 2026 Faz Tudo Express. Todos os direitos reservados.
           </p>
           <div className="flex items-center gap-6 text-muted-foreground/60 text-xs font-bold uppercase tracking-widest">
-            <span>Maputo</span>
+            <span>Lagos</span>
             <span className="w-1 h-1 bg-white/20 rounded-full" />
-            <span>Matola</span>
+            <span>Luanda</span>
             <span className="w-1 h-1 bg-white/20 rounded-full" />
-            <span>Beira</span>
+            <span>Joanesburgo</span>
           </div>
         </motion.div>
       </div>

@@ -28,7 +28,7 @@ const HeroSection = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-brand-primary"></span>
             </span>
-            #1 em Moçambique
+            #1 em África
           </div>
 
           {/* Headline */}
@@ -53,7 +53,7 @@ const HeroSection = () => {
             className="text-xl text-muted-foreground mb-8 max-w-lg leading-relaxed font-medium"
           >
             Conectamos você aos melhores eletricistas, encanadores e técnicos de
-            Moçambique. Rápido, seguro e garantido.
+            África. Rápido, seguro e garantido.
           </motion.p>
 
           {/* Search Bar */}

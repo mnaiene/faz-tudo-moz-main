@@ -40,7 +40,7 @@ const CTASection = ({ onOpenOrcamento }: CTASectionProps) => {
                 transition={{ delay: 0.3, duration: 0.6 }}
                 className="text-blue-100/90 text-xl font-medium mb-12 max-w-md"
               >
-                Junte-se a milhares de moçambicanos que confiam na Faz Tudo
+                Junte-se a milhares de africanos que confiam na Faz Tudo
                 Express para cuidar do seu lar.
               </motion.p>
               <motion.div

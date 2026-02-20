@@ -52,7 +52,7 @@ export const AboutSection = () => {
                 </div>
                 <h3 className="text-2xl font-black text-foreground mb-4">A Nossa Missão</h3>
                 <p className="text-muted-foreground font-medium text-lg leading-relaxed">
-                  Conectar clientes a profissionais de reparo doméstico confiáveis, oferecendo soluções rápidas e de qualidade, com foco na satisfação e segurança.
+                  Conectar clientes a profissionais de reparo doméstico confiáveis, oferecendo soluções rápidas e de qualidade, com foco na satisfação e segurança em toda África.
                 </p>
               </div>
             </motion.div>

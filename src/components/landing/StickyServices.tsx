@@ -23,7 +23,7 @@ const services = [
   {
     id: 3,
     title: "Climatização",
-    description: "Instalação e manutenção de Ar Condicionado para enfrentar o calor de Maputo.",
+    description: "Instalação e manutenção de Ar Condicionado para enfrentar o calor de toda África.",
     image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2000&auto=format&fit=crop",
     color: "bg-slate-900",
     textColor: "text-white"
